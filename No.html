@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+        <link rel="icon" href="Ticnap Notnac.png" type="image/png">
+        <title>Awww ;-;</title>
+        <style>
+            body {
+                opacity: 1;  /* Initial visibility */
+                transition: opacity 1s ease-in-out;  /* Smooth fade-out transition */
+            }
+    
+            /* Fade-out effect */
+            .fade-out {
+                opacity: 0;  /* Make the body invisible */
+            }
+        </style>
+        <script>
+            // Set a 2-second timeout to start fading out and then redirect back to the original page
+            setTimeout(function() {
+                document.body.classList.add('fade-out');  // Add fade-out class to start the effect
+                setTimeout(function() {
+                    window.location.href = "index.html";  // Redirect back to page1.html after the fade-out completes
+                }, 500);  // Wait for 1 second (duration of the fade-out)
+            }, 1000);  // Start fading after 2 seconds
+        </script>
+    </head>
+
+    <body>
+        <div class=NO>
+            <h1>No!? I can do this all day notnac, EYE OF AGAMOTTO!!!</h1>
+            <img class="rewind-gif" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHFrbmNjZ2I0ZzcxaTRzN3owNDlwOGJkNnd6YTllZThsOTU5Z3Z0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8FV8DMUqB6oUOsDkQd/giphy.gif" alt="Rewind GIF">
+        </div>
+    </body>
+</html>
